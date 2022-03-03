@@ -1,0 +1,106 @@
+machine learning assaignment answers
+1.a
+2.a
+3.b
+4.b
+5.c
+6.b
+7.d
+8.d
+9.a
+10.b
+11.b
+12.a&b
+13. This is a form of regression, that constrains or shrinks the coefficient estimates towards zero. This technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting.
+14.The algorithms used for regularization is LASSO AND Ridge
+15.It represents the average distance that observed values fall from regression line.
+
+STATISTICS WORKSHEET ANSWERS
+1.a
+2.a
+3.c
+4.d
+5.c
+6.b
+7.b
+8.a
+9.c
+10.Normal distribution is a probability distribution that is symmetric about the mean, showing that data near mean and more frequent in occurance than data from the mean.
+11.deletions,pairwise deletion, K-Nearest neighbor imputation
+Techniques to handle missing data
+using deletion methods,regression analysis,data imputation
+12.A/B tests consist of a randomized experiment with two variants,A and B. it includes application of stastistical hypothesis testing or "two sample hypothesis testing"
+13.Mean imputation is a the process of replacing null values in a data collection with the data`s mean is known as mean imputation.Mean imputation is typically considered terrible practice since it ignores feature correlation.
+14.Linear regression is an attempt to model the relationship between two variables by fitting a linear equation to observe data, one variable is considered  to be explanatory variable and other is dependent variable.
+15.three real branches of ststistics
+1.data collection
+2.descriptive ststistics
+3.inferential ststistics
+
+PYTHON WORKSHEET ANSWERS
+1.c
+2.b
+3.c
+4.a
+5.d
+6.c
+7.a
+8.c
+9.a
+10.a&b
+11.number= int(input("Enter a number: "))
+factorial=1
+
+for i in range(1,num +1):
+factorial=factorial*i
+print("The factorial of",num, "is", factorial)
+output:Enter a number:7
+       The factorial of 7 is 5040
+       
+12.num=11
+for i in range(2,int(num/2)+1):
+if(num%i)==0:
+print(num,"is not a prime number")
+break
+else:
+print(num,"is a prime number")
+ else:
+print(num,"is not a prime number")
+output: 11 is a prime number
+ 
+13.def ispalindrome(s):
+return s==s[::-1]
+s="MADAM"
+if ans:
+print("YES")
+else:
+print("NO")
+output:YES
+ 
+14.def pythagoras(opposite_side,adjacent_side,hypotenuse):
+ if opposite_side==str("x"):
+ return("Opposite="+str(((hypotenuse**2)-(adjacent_side**2))**0.5))
+ elif adjacent_side==str("x"):
+  return("Adjacent="+str(((hypotenuse**2)-(opposite_side**2))**0.5))
+  elif hypotenuse=str("x"):
+  return("Hypotenuse="+str(((opposite_side**2)+(adjacent_side**2))**0.5))
+  else:
+  return("Done")
+ pythagoroas(3,4,x)
+ pythagoroas(3,x,5)
+ pythagoroas(x,3,4)
+ pythagoroas(3,4,5)
+output: Hypotenuse=5.0
+        Adjacent=4.0
+        Opposite=3.0
+        Done
+        
+15.test_str="GaraHimabindu"
+    all_freq={}
+   for i in test_str:
+     if i in all_freq:
+     all_freq[i] +=1
+     else:
+     all_freq[i]=1
+   print("Count of all charecters in GaraHimabindu is: \n" +str(all_freq))
+output:Count of all charecters in GaraHimabindu is :{'G':1, 'a':3, 'r':1, 'H':1, 'i':2, 'm':1, 'b':1, 'n':1 'd':1, 'u':1}   
